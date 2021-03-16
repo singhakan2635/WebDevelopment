@@ -1,0 +1,64 @@
+#play-guess
+{
+    background-color: whitesmoke;
+}
+
+.container
+{
+    margin: auto;
+    text-align: center;
+    width: 800px;
+    height: 800px;
+    background-color: #3D6C80;
+    border: thin solid grey;
+    color: white;
+
+}
+
+.display-guess-word
+{
+    margin-top: 20px;
+    height: 300px;
+    
+
+}
+.guess-scrollable
+{
+    height: 250px; 
+    overflow:scroll;
+}
+
+.display-message
+{
+    margin-top: 20px;
+    height: 150px;
+}
+
+.list-word
+{
+    margin-right: 20px;
+    height: 70px;
+    overflow:scroll;
+    margin-bottom: 30px;
+    font-weight: 200;
+}
+ul{
+    list-style:none;
+}
+input{
+    height: 50px;
+    width: 300px;
+    -ms-box-sizing: border-box; /* ie8 */
+    -khtml-box-sizing: border-box; /* konqueror */
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+    box-sizing: border-box; 
+}
+button{
+    display: inline-block;
+    margin-top: 10px;
+    height: 30px;
+    width: 100px;
+    font-weight: 300;
+}

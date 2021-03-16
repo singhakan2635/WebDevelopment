@@ -1,0 +1,33 @@
+.login-page-background
+{
+    background-image: url('images/869f1342f1d5d15337b2bbf470ad2382.jpg');
+    max-height: 800px;
+    max-width: 1000px;
+    min-width: 500px;
+    min-height: 500px;
+    margin-left: 15%;
+    margin-right: 15%;
+
+}
+.header
+{
+    text-align: center;
+    padding-top: 100px;
+}
+input{
+    height: 50px;
+    width: 300px;
+    -ms-box-sizing: border-box; /* ie8 */
+    -khtml-box-sizing: border-box; /* konqueror */
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+    box-sizing: border-box; 
+}
+button{
+    display: inline-block;
+    margin-top: 10px;
+    height: 30px;
+    width: 100px;
+    font-weight: 300;
+}

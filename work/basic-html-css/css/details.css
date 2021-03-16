@@ -1,0 +1,42 @@
+#details
+{
+	text-align: center;
+}
+.message-error
+{
+	max-width: 100%;
+	min-width: 400px;
+	max-height: 350px;
+	background: #c51244 !important;
+	padding: 10px !important;
+	position: relative; 
+	display: inline-block !important;
+	border: 2px solid black;
+	color: white;
+	box-shadow: 2px 2px 2px #aaaaaa;
+
+}
+
+.forms
+{
+	margin-top: 30px;
+	display: flex;
+	max-width: 700px;
+	max-height: 500px;
+	margin-left: 30%;
+
+
+}
+.favStudents
+{
+	margin: 20px;
+}
+.favCats
+{
+	margin: 20px;
+	
+}
+.text-Label
+{
+	margin: 10px;
+}

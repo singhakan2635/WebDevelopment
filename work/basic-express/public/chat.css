@@ -1,0 +1,104 @@
+#chat-app
+{
+    width:750px;
+    min-height: 100%;
+    background:#eff3f7;
+	margin:auto;
+    border-radius:5px;	
+    position: relative;
+
+}
+
+.display-panel
+{
+    display: flex;
+}
+
+.users
+{
+    position: fixed;
+}
+ul{
+    list-style-type: none;
+    
+    text-align: center;
+    margin-top: 6px;
+    
+}
+ol{
+    list-style-type: none;
+}
+.messages
+{
+    margin-left: 100px;
+    border-radius: 15px;
+    padding: 20px;
+    overflow: auto;
+
+}
+.display-chat
+{
+    display: inline-flexbox;
+    margin: 20px;
+}
+.sender
+{
+    margin-right: 10px;
+}
+.users li:nth-child(odd)
+{
+    background-color: #8ce0f5;
+    padding: 10px;
+}
+.users li:nth-child(even)
+{
+    background-color: #5db0d1;
+    padding: 10px;
+
+}
+.text
+{
+    padding: 10px;
+    color: #fff;
+    line-height: 20px;
+    max-width: 90%;
+    display: inline-block;
+    text-align: left;
+    border-radius: 5px;
+    background-color: rgb(0, 175, 175);
+}
+.form
+{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: auto;
+    position: fixed;
+    bottom: 20px;
+    
+}
+.message-bar
+{
+    width: 100%;
+    display: inline-flex;
+    
+}
+input{
+    height: 50px;
+    width: 600px;
+    -ms-box-sizing: border-box; /* ie8 */
+    -khtml-box-sizing: border-box; /* konqueror */
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+    box-sizing: border-box; 
+}
+button
+{
+    width: 100px;
+    background-color: rgb(0, 168, 160);
+}
+
+.header-user
+{
+    color:rgb(1, 39, 39);
+}
